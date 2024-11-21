@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Vitae</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Hi!!!!</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="text-dark text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Atha Dhaiffathin</h1>
+        <img
+          src="pasfoto.jpg"
+          alt="Atha Dhaiffathin"
+          class="img-fluid rounded-circle my-3"
+          width="150"
+          height="150"
+        />
+        <p class="lead">
+          Backend Engineer Golang | Problem Solver | Tech Enthusiast
+        </p>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">About Me</h2>
+        <p class="text-center">
+          A dedicated and results-oriented Software Engineer with 2 years of
+          professional experience. I have hands-on experience in all stages of
+          the Software Development Life Cycle (SDLC), from initial requirements
+          gathering and analysis to design, development, testing, deployment,
+          and maintenance. I am passionate about technology and committed to
+          continuous learning, always striving to contribute effectively to the
+          success of my team and projects.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Front-End</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">HTML5</li>
+              <li class="list-group-item">CSS3</li>
+              <li class="list-group-item">JavaScript</li>
+              <li class="list-group-item">Bootstrap</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Back-End</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Go</li>
+              <li class="list-group-item">Java</li>
+              <li class="list-group-item">Python</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Tools</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Git</li>
+              <li class="list-group-item">Docker</li>
+              <li class="list-group-item">VS Code</li>
+              <li class="list-group-item">Linux</li>
+              <li class="list-group-item">SQL</li>
+              <li class="list-group-item">NoSQL</li>
+              <li class="list-group-item">Apache Kafka</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>Backend Engineer at PLN Icon Plus</h4>
+            <p>July 2024 - Now</p>
+            <ul>
+              <li>
+                Migrating backend of PLN Mobile from PHP Laravel Monolith into
+                Go Microservices.
+              </li>
+              <li>Implement Datadog for monitoring Go Microservices.</li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <h4>Software Engineer at Jatis Mobile</h4>
+            <p>Sept 2022 - June 2024</p>
+            <ul>
+              <li>
+                Develop and maintain WhatsApp Gateway project using Go
+                microservices for clients use.
+              </li>
+              <li>
+                Develop Jatis Notification System Revamp project as VueJS Front
+                End Developer.
+              </li>
+              <li>
+                Ensure the correctness of developed software behavior through
+                unit and integration testing.
+              </li>
+              <li>
+                Participate in software design and architecture with the tech
+                lead.
+              </li>
+              <li>
+                Setup and configure Ubuntu Linux staging server, including
+                HAProxy, database, and message broker.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>Bachelor of Informatics</h4>
+            <p>Institut Teknologi Tangerang Selatan, 2023 - now</p>
+            <p>Undergraduate student majoring in Informatics</p>
+          </div>
+          <div class="timeline-item">
+            <h4>Vocational High School Diploma of Software Engineering</h4>
+            <p>SMKN 12 Kabupaten Tangerang, 2019 - 2022</p>
+            <p>
+              Graduated as the best student in the Software Engineering major
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <form id="contactForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 Atha Dhaiffathin. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+  </body>
+</html>

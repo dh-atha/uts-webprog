@@ -1,0 +1,16 @@
+header {
+  background-color: #bff3f6;
+}
+.timeline {
+  margin-top: 20px;
+}
+.timeline-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 3px solid #bff3f6;
+}
+.imagePost {
+  max-height: 400px;
+  overflow: hidden;
+  object-fit: cover;
+}

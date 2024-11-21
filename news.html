@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Vitae</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Hi!!!!</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <h1 class="mb-4">Latest News</h1>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Golang 1.23 Released</h3>
+              <img
+                src="./Go-Logo_Blue.png"
+                alt="Golang"
+                class="img-fluid"
+                style="max-height: 200px; width: auto; object-fit: cover"
+              />
+              <p class="card-text">
+                Go, often referred to as Golang, is a statically typed, compiled
+                programming language designed at Google. It was created by
+                Robert Griesemer, Rob Pike, and Ken Thompson, aiming to address
+                issues of scalability, simplicity, and performance. Golang is
+                widely known for its efficiency in building concurrent and
+                distributed systems, making it popular for microservices
+                architecture. Its syntax, inspired by C, focuses on clarity and
+                developer productivity, attracting a growing community of users
+                and contributors.
+              </p>
+              <div id="moreContent" style="display: none">
+                <h4>Features of Golang</h4>
+                <p>
+                  One of Golang's standout features is its support for
+                  goroutines, lightweight threads that make concurrent
+                  programming seamless. The language also includes a garbage
+                  collector to manage memory automatically, simplifying
+                  application development. Its built-in tooling, such as
+                  <code>go fmt</code> for code formatting and
+                  <code>go test</code> for testing, enhances the development
+                  experience. Furthermore, Go's focus on cross-platform
+                  compilation allows developers to build executables for
+                  multiple operating systems from a single codebase.
+                </p>
+                <h4>Golang 1.23 Updates</h4>
+                <p>
+                  Golang 1.23 introduces several enhancements to improve
+                  developer experience and application performance. Among the
+                  notable changes are optimizations in the garbage collector,
+                  reducing memory fragmentation and latency. The version also
+                  refines error handling with better diagnostics, providing more
+                  actionable information in stack traces. Security updates have
+                  been integrated to strengthen the language's resilience
+                  against emerging vulnerabilities, keeping it aligned with
+                  industry standards.
+                </p>
+                <h4>Adoption and Community Impact of Golang 1.23</h4>
+                <p>
+                  With the release of version 1.23, Golang continues to gain
+                  traction among developers working in cloud computing and
+                  DevOps. The improvements cater to the needs of
+                  high-performance applications, making it a preferred choice
+                  for modern development workflows. Active contributions from
+                  the community ensure that Golang evolves to meet industry
+                  demands, maintaining its relevance. The consistent release
+                  cycle fosters trust and reliability, encouraging adoption in
+                  both startups and large enterprises.
+                </p>
+              </div>
+              <button
+                id="readMoreBtn"
+                class="btn btn-primary"
+                onclick="showMore()"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 Atha Dhaiffathin. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
